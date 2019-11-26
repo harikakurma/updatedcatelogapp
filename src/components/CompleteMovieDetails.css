@@ -1,0 +1,55 @@
+.completeMovie-details {
+  margin: 1rem 0;
+}
+
+.completeMovie-details__content {
+  padding: 0;
+}
+
+.completeMovie-details__info {
+  padding: 1rem;
+  text-align: center;
+}
+
+.completeMovie-details__image {
+  width: 100%;
+  height: 15rem;
+  margin-right: 6rem;
+}
+
+.completeMovie-details__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.completeMovie-details__info h2,
+.completeMovie-details__info h3,
+.completeMovie-details__info p {
+  margin: 0 0 0.5rem 0;
+}
+
+.completeMovie-details__actions {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.completeMovie-details__modal-content {
+  padding: 0;
+}
+
+.completeMovie-details__modal-actions {
+  text-align: right;
+}
+
+.completeMovie-details__actions button,
+.completeMovie-details__actions a {
+  margin: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .completeMovie-details__image {
+    height: 20rem;
+  }
+}
